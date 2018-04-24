@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BancardVposConnector_Example' do
+  pod 'BancardVposConnector', :path => '../'
+
+  target 'BancardVposConnector_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
