@@ -9,9 +9,21 @@
 import Foundation
 import UIKit
 import WebKit
-
+/**
+ Delegate in charge of handling card creation events.
+*/
 public protocol CardVPOSDelegate: class {
+  /**
+   Called when the card creation request is successful.
+   Returns the returnURL provided by VPOS, after that
+   point you should continue with the processing.
+ */
   func cardCreationSuccess(with returnURL: String)
+  /**
+   Called when the card creation request fails.
+   Returns the returnURL provided by VPOS and the error details,
+   after that point you should continue with the processing.
+   */
   func cardCreationFailed(with details: String, and returnURL: String)
 }
 

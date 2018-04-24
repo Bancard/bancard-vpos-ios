@@ -9,9 +9,21 @@
 import Foundation
 import UIKit
 import WebKit
-
+/**
+ Delegate in charge of handling checkout events.
+*/
 public protocol CheckoutVPOSDelegate: class {
+  /**
+   Called when the checkout requests is successful.
+   Returns the returnURL provided by VPOS, after that
+   point you should continue with the processing.
+   */
   func paymentSuccess(with returnURL: String)
+  /**
+   Called when the checkout requests fail.
+   Returns the returnURL provided by VPOS,
+   after that point you should continue with the processing.
+  */
   func paymentFailed(with returnURL: String)
 }
 

@@ -9,11 +9,21 @@
 import UIKit
 import WebKit
 
+/**
+ Enum that specifies all the available modes for a VPOSView
+
+ - sandbox: Uses sandbox base URLs.
+ - production: Uses production URLs.
+
+ These modes only affect the services consumend by the view,
+ all it's behaviour will stay the same between modes.
+*/
 public enum VPOSMode {
   case sandbox
   case production
 }
 
+/// Keys used for parameter decoding and encoding.
 struct VPOSKeys {
   static let payload = "payload"
   static let paymentSuccess = "payment_success"
@@ -25,17 +35,22 @@ struct VPOSKeys {
   static let styles = "styles"
 }
 
+/**
+ Base class that implements common behaviour for communicating with VPOS.
+ You should not need to use this class directly, but their sub-classes: `CardVPOSView` and `CheckoutVPOSView`.
+*/
 public class VPOSView: UIView {
+  /// base URL used for production requests.
   open var productionBaseURL: String {
     return ""
   }
-
+  /// base URL used for sandbox requests.
   open var sandboxBaseURL: String {
     return ""
   }
-
+  /// mode used to define wether to use production or sandbox constants, production by default.
   public var mode: VPOSMode = .production
-
+  /// Computed propperty that provides the service base URL depending on the currently active mode.
   public var baseURL: String {
     switch mode {
     case .production:
@@ -44,11 +59,14 @@ public class VPOSView: UIView {
       return sandboxBaseURL
     }
   }
-
+  /// handler identifier used to register the WKMessageHandler and bridge from javascript to native
   public let handlerName = "callbackHandler"
+  /// Script file name used to inject code into the frame when loaded.
   private let jsFileName = "EventHandler"
+  /// File extension used to load javascript files.
   private let jsFileExtension = "js"
 
+  /// Content controller configuration to use inside the WKWebView.
   private lazy var contentController: WKUserContentController = {
     let contentController = WKUserContentController()
     let script = WKUserScript(source: loadScriptFromJS(), injectionTime: .atDocumentEnd, forMainFrameOnly: true)
@@ -56,7 +74,7 @@ public class VPOSView: UIView {
     contentController.add(self, name: handlerName)
     return contentController
   }()
-
+  /// WKWebView initialization.
   private lazy var webView: WKWebView = {
     let webConfig = WKWebViewConfiguration()
     webConfig.userContentController = contentController
@@ -81,7 +99,13 @@ public class VPOSView: UIView {
     super.init(frame: frame)
     setup()
   }
+  /**
+   Makes a load request for an specific process_id, loading it inside the VPOSView as a form.
 
+   Parameters:
+      - processId: The process_id of your transaction.
+      - styles: Your custom styles for the form.
+  */
   public func load(with processId: String, styles: [String: String] = [:]) {
     var urlComponents = URLComponents(string: "\(baseURL)\(processId)")
     let encoder = JSONEncoder()
@@ -95,11 +119,15 @@ public class VPOSView: UIView {
     guard let url = urlComponents?.url else { return }
     webView.load(URLRequest(url: url))
   }
+  /**
+   Point of connection between the events that happen inside the VPOSView and the application.
 
+   This method MUST be implemented by it's subclasses (as CardVPOSView and CheckoutVPOSView do) to define the specific behaviour for their form events.
+  */
   open func handleMessage(_ message: WKScriptMessage) {
     assertionFailure("You must implement this handler in any VPOSView subclass")
   }
-
+  /// Helper for view setup.
   private func setup() {
     addSubview(webView)
     translatesAutoresizingMaskIntoConstraints = false
@@ -111,7 +139,7 @@ public class VPOSView: UIView {
     ]
     NSLayoutConstraint.activate(constraints)
   }
-
+  /// Helper for loading js files.
   private func loadScriptFromJS() -> String {
     guard
       let location = Bundle.main.path(forResource: jsFileName, ofType: jsFileExtension),
