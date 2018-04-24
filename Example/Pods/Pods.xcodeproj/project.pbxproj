@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22812F17208F94A500830102 /* CheckoutVPOSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22812F13208F94A400830102 /* CheckoutVPOSView.swift */; };
+		22812F18208F94A500830102 /* VPOSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22812F15208F94A400830102 /* VPOSView.swift */; };
+		22812F19208F94A500830102 /* CardVPOSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22812F16208F94A400830102 /* CardVPOSView.swift */; };
+		2D4B15A26148A57452D7F5A15F3FA804 /* Pods-BancardVposConnector_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44DAFC640772EC6E95AD89190CA36186 /* Pods-BancardVposConnector_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		321727EABB7E0F229ABE2E4D261A186C /* Pods-BancardVposConnector_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7CBFB245918DC585A9A96C1A167CFA /* Pods-BancardVposConnector_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4189B735D455A1B051A899075E7FA22F /* BancardVposConnector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA86290B2524855F1032A61BE8B568F /* BancardVposConnector-dummy.m */; };
+		613130A8A06A7E72909AE6166DC2F79E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6B15E0C6FFFBCADD338968E77AACB80E /* Pods-BancardVposConnector_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 961F32D3F7BBD6F2C6BAF4FAB7FF4336 /* Pods-BancardVposConnector_Example-dummy.m */; };
+		7BC6B39FD13425D7BA956C183A17A6F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		939DC458A3D61B5D60DC31EFC0DF0E6C /* BancardVposConnector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5399C2D77A8368A913C78FF6285BC03D /* BancardVposConnector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB0CFCF0166924BF7A01AEE45C65F4B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B5131D1B04E827801867DF2451CC900D /* Pods-BancardVposConnector_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8283E88D6173659ACCF1D6EDAB0A8C84 /* Pods-BancardVposConnector_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6370C426D52BF0EBD1BB66123542E5CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9EB1B47D9DEB740CED92A8EAF3385E4;
+			remoteInfo = "Pods-BancardVposConnector_Example";
+		};
+		6B1DA1B08E2811AEBF5497A52D24CFE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D3F3CD73237C82FFC2432CBA13F5DE1;
+			remoteInfo = BancardVposConnector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01834A602BA6E7E78D112EE5C781650D /* Pods-BancardVposConnector_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BancardVposConnector_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0820DE32E0B5BB2236818C16D141F412 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0977A64C52973738FB2C4635012F0A74 /* Pods_BancardVposConnector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BancardVposConnector_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22812F13208F94A400830102 /* CheckoutVPOSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckoutVPOSView.swift; path = ../BancardVposConnector/Core/CheckoutVPOSView.swift; sourceTree = "<group>"; };
+		22812F14208F94A400830102 /* EventHandler.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = EventHandler.js; path = ../BancardVposConnector/Core/EventHandler.js; sourceTree = "<group>"; };
+		22812F15208F94A400830102 /* VPOSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VPOSView.swift; path = ../BancardVposConnector/Core/VPOSView.swift; sourceTree = "<group>"; };
+		22812F16208F94A400830102 /* CardVPOSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardVPOSView.swift; path = ../BancardVposConnector/Core/CardVPOSView.swift; sourceTree = "<group>"; };
+		3122513AAE04CD3229AF259397E0DE20 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		372874B9F79E4BC6C75FCCE919B095BB /* Pods-BancardVposConnector_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BancardVposConnector_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3CD244F385ACB3863120FEC1F102DB5D /* BancardVposConnector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BancardVposConnector-prefix.pch"; sourceTree = "<group>"; };
+		44DAFC640772EC6E95AD89190CA36186 /* Pods-BancardVposConnector_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BancardVposConnector_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4E9A13BFA5EE6C5C0B4D63B42D9F8CD1 /* Pods-BancardVposConnector_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BancardVposConnector_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5399C2D77A8368A913C78FF6285BC03D /* BancardVposConnector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BancardVposConnector-umbrella.h"; sourceTree = "<group>"; };
+		6084714C70C978701A6E6814534772DB /* BancardVposConnector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BancardVposConnector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62092888674A74ECFF8451299669FF28 /* Pods-BancardVposConnector_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BancardVposConnector_Tests.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		72B6AD16452F1D0BF65A689AA76029A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		780723E290D3976B877C228AEF759B9D /* BancardVposConnector.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = BancardVposConnector.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		782EC47DCB203FCFDF861B8B291D3475 /* BancardVposConnector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BancardVposConnector.xcconfig; sourceTree = "<group>"; };
+		8283E88D6173659ACCF1D6EDAB0A8C84 /* Pods-BancardVposConnector_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BancardVposConnector_Tests-dummy.m"; sourceTree = "<group>"; };
+		87149979B154EC557342200F4E5313E2 /* Pods-BancardVposConnector_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BancardVposConnector_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		879B885CEB3E1F580D2D4C7899110DD1 /* Pods-BancardVposConnector_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BancardVposConnector_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8F889A85BA4EDEFB01665C09BA979DBC /* Pods-BancardVposConnector_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BancardVposConnector_Tests-resources.sh"; sourceTree = "<group>"; };
+		8FA86290B2524855F1032A61BE8B568F /* BancardVposConnector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BancardVposConnector-dummy.m"; sourceTree = "<group>"; };
+		92829CFD573EAA8018481F6FD10B91B4 /* Pods_BancardVposConnector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BancardVposConnector_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E5A4137DC9409AFCA3670DBEBB87E0 /* Pods-BancardVposConnector_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BancardVposConnector_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		961F32D3F7BBD6F2C6BAF4FAB7FF4336 /* Pods-BancardVposConnector_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BancardVposConnector_Example-dummy.m"; sourceTree = "<group>"; };
+		A231105F07D478FF1FC11B04B619E87E /* Pods-BancardVposConnector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BancardVposConnector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8A4FBC903A3BE0AAED3163CC68C425A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7CBFB245918DC585A9A96C1A167CFA /* Pods-BancardVposConnector_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BancardVposConnector_Example-umbrella.h"; sourceTree = "<group>"; };
+		ACD58871A5950A1D9FABE4891BB2B24D /* Pods-BancardVposConnector_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BancardVposConnector_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AF94754C1E45B4106D55A33B6A5177B2 /* Pods-BancardVposConnector_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BancardVposConnector_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B34D1D32C7CFA086049DBA344B902947 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EE70E02B0430DA5AF4D2DC56555CC4C9 /* Pods-BancardVposConnector_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BancardVposConnector_Example-resources.sh"; sourceTree = "<group>"; };
+		F22E60DC86CD343F6CD9EBFD792B63FD /* Pods-BancardVposConnector_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BancardVposConnector_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F41950EA2A10F29FF436CFEF4F4C630D /* Pods-BancardVposConnector_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BancardVposConnector_Example.modulemap"; sourceTree = "<group>"; };
+		F4A4FF8BE1C6335D161E4C72998FAE6A /* BancardVposConnector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BancardVposConnector.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B7FB414E42CDD33C1F7AAD251FF1CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC6B39FD13425D7BA956C183A17A6F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B31C854E7145FB0E58324191A59430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0CFCF0166924BF7A01AEE45C65F4B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC47195594951A6E9564F0C881EF6D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613130A8A06A7E72909AE6166DC2F79E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08D77151AE7C83CA83CC15843D1F26EA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2687BB6F21F8900BD7CEB023DE01C0F3 /* Pods-BancardVposConnector_Example */,
+				24A5CB3D81242BA7C4F089ADBDB42A10 /* Pods-BancardVposConnector_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		22812F04208F8ADF00830102 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				22812F16208F94A400830102 /* CardVPOSView.swift */,
+				22812F13208F94A400830102 /* CheckoutVPOSView.swift */,
+				22812F14208F94A400830102 /* EventHandler.js */,
+				22812F15208F94A400830102 /* VPOSView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		24A5CB3D81242BA7C4F089ADBDB42A10 /* Pods-BancardVposConnector_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0820DE32E0B5BB2236818C16D141F412 /* Info.plist */,
+				62092888674A74ECFF8451299669FF28 /* Pods-BancardVposConnector_Tests.modulemap */,
+				F22E60DC86CD343F6CD9EBFD792B63FD /* Pods-BancardVposConnector_Tests-acknowledgements.markdown */,
+				ACD58871A5950A1D9FABE4891BB2B24D /* Pods-BancardVposConnector_Tests-acknowledgements.plist */,
+				8283E88D6173659ACCF1D6EDAB0A8C84 /* Pods-BancardVposConnector_Tests-dummy.m */,
+				372874B9F79E4BC6C75FCCE919B095BB /* Pods-BancardVposConnector_Tests-frameworks.sh */,
+				8F889A85BA4EDEFB01665C09BA979DBC /* Pods-BancardVposConnector_Tests-resources.sh */,
+				44DAFC640772EC6E95AD89190CA36186 /* Pods-BancardVposConnector_Tests-umbrella.h */,
+				A231105F07D478FF1FC11B04B619E87E /* Pods-BancardVposConnector_Tests.debug.xcconfig */,
+				92E5A4137DC9409AFCA3670DBEBB87E0 /* Pods-BancardVposConnector_Tests.release.xcconfig */,
+			);
+			name = "Pods-BancardVposConnector_Tests";
+			path = "Target Support Files/Pods-BancardVposConnector_Tests";
+			sourceTree = "<group>";
+		};
+		2687BB6F21F8900BD7CEB023DE01C0F3 /* Pods-BancardVposConnector_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A8A4FBC903A3BE0AAED3163CC68C425A /* Info.plist */,
+				F41950EA2A10F29FF436CFEF4F4C630D /* Pods-BancardVposConnector_Example.modulemap */,
+				AF94754C1E45B4106D55A33B6A5177B2 /* Pods-BancardVposConnector_Example-acknowledgements.markdown */,
+				4E9A13BFA5EE6C5C0B4D63B42D9F8CD1 /* Pods-BancardVposConnector_Example-acknowledgements.plist */,
+				961F32D3F7BBD6F2C6BAF4FAB7FF4336 /* Pods-BancardVposConnector_Example-dummy.m */,
+				01834A602BA6E7E78D112EE5C781650D /* Pods-BancardVposConnector_Example-frameworks.sh */,
+				EE70E02B0430DA5AF4D2DC56555CC4C9 /* Pods-BancardVposConnector_Example-resources.sh */,
+				AA7CBFB245918DC585A9A96C1A167CFA /* Pods-BancardVposConnector_Example-umbrella.h */,
+				87149979B154EC557342200F4E5313E2 /* Pods-BancardVposConnector_Example.debug.xcconfig */,
+				879B885CEB3E1F580D2D4C7899110DD1 /* Pods-BancardVposConnector_Example.release.xcconfig */,
+			);
+			name = "Pods-BancardVposConnector_Example";
+			path = "Target Support Files/Pods-BancardVposConnector_Example";
+			sourceTree = "<group>";
+		};
+		3D7EFDE41E63ACE7F7963FB7667403B7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				780723E290D3976B877C228AEF759B9D /* BancardVposConnector.podspec */,
+				3122513AAE04CD3229AF259397E0DE20 /* LICENSE */,
+				B34D1D32C7CFA086049DBA344B902947 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D89E10FAFD2223B03FF7F93665C2445B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				80B0F1258B9B33A0F7954EB5B49B6BB0 /* Products */,
+				08D77151AE7C83CA83CC15843D1F26EA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80B0F1258B9B33A0F7954EB5B49B6BB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6084714C70C978701A6E6814534772DB /* BancardVposConnector.framework */,
+				0977A64C52973738FB2C4635012F0A74 /* Pods_BancardVposConnector_Example.framework */,
+				92829CFD573EAA8018481F6FD10B91B4 /* Pods_BancardVposConnector_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		819DFEDB4D39B1DEAA5AD3275702249F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4A4FF8BE1C6335D161E4C72998FAE6A /* BancardVposConnector.modulemap */,
+				782EC47DCB203FCFDF861B8B291D3475 /* BancardVposConnector.xcconfig */,
+				8FA86290B2524855F1032A61BE8B568F /* BancardVposConnector-dummy.m */,
+				3CD244F385ACB3863120FEC1F102DB5D /* BancardVposConnector-prefix.pch */,
+				5399C2D77A8368A913C78FF6285BC03D /* BancardVposConnector-umbrella.h */,
+				72B6AD16452F1D0BF65A689AA76029A6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BancardVposConnector";
+			sourceTree = "<group>";
+		};
+		B4C802CC98E75E4A408B872FBA454941 /* BancardVposConnector */ = {
+			isa = PBXGroup;
+			children = (
+				22812F04208F8ADF00830102 /* Core */,
+				3D7EFDE41E63ACE7F7963FB7667403B7 /* Pod */,
+				819DFEDB4D39B1DEAA5AD3275702249F /* Support Files */,
+			);
+			name = BancardVposConnector;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D89E10FAFD2223B03FF7F93665C2445B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4C802CC98E75E4A408B872FBA454941 /* BancardVposConnector */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		338E717969680CF97FCD59C40AB9266A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321727EABB7E0F229ABE2E4D261A186C /* Pods-BancardVposConnector_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666FE7CC454405CE0AA83F0E6B302E21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939DC458A3D61B5D60DC31EFC0DF0E6C /* BancardVposConnector-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A5173E0EE591FF594F68C255E7B457 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4B15A26148A57452D7F5A15F3FA804 /* Pods-BancardVposConnector_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9A1FBDD2859F94F96881B49D64F3CAB3 /* Pods-BancardVposConnector_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AF14AFA6A5C382CFF4335F466529E27 /* Build configuration list for PBXNativeTarget "Pods-BancardVposConnector_Tests" */;
+			buildPhases = (
+				CCE04C022DFDDC90FC93BB43C5A43323 /* Sources */,
+				C6B31C854E7145FB0E58324191A59430 /* Frameworks */,
+				87A5173E0EE591FF594F68C255E7B457 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78F7EFA40E8411594B7893DD3B1E0668 /* PBXTargetDependency */,
+			);
+			name = "Pods-BancardVposConnector_Tests";
+			productName = "Pods-BancardVposConnector_Tests";
+			productReference = 92829CFD573EAA8018481F6FD10B91B4 /* Pods_BancardVposConnector_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D3F3CD73237C82FFC2432CBA13F5DE1 /* BancardVposConnector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943179B0DE9C8A728A0C94C36ED7D1CE /* Build configuration list for PBXNativeTarget "BancardVposConnector" */;
+			buildPhases = (
+				141F6D019E7EDD6AF18CFCB885D11858 /* Sources */,
+				9B7FB414E42CDD33C1F7AAD251FF1CC4 /* Frameworks */,
+				666FE7CC454405CE0AA83F0E6B302E21 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BancardVposConnector;
+			productName = BancardVposConnector;
+			productReference = 6084714C70C978701A6E6814534772DB /* BancardVposConnector.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9EB1B47D9DEB740CED92A8EAF3385E4 /* Pods-BancardVposConnector_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527BC382DFFE4282879882CBA2356051 /* Build configuration list for PBXNativeTarget "Pods-BancardVposConnector_Example" */;
+			buildPhases = (
+				4BF14ABE4019292FBEC4F7A6AA882653 /* Sources */,
+				CAC47195594951A6E9564F0C881EF6D8 /* Frameworks */,
+				338E717969680CF97FCD59C40AB9266A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDC34C29CC7CC1DC70526F17464B06C6 /* PBXTargetDependency */,
+			);
+			name = "Pods-BancardVposConnector_Example";
+			productName = "Pods-BancardVposConnector_Example";
+			productReference = 0977A64C52973738FB2C4635012F0A74 /* Pods_BancardVposConnector_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					9D3F3CD73237C82FFC2432CBA13F5DE1 = {
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 80B0F1258B9B33A0F7954EB5B49B6BB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D3F3CD73237C82FFC2432CBA13F5DE1 /* BancardVposConnector */,
+				E9EB1B47D9DEB740CED92A8EAF3385E4 /* Pods-BancardVposConnector_Example */,
+				9A1FBDD2859F94F96881B49D64F3CAB3 /* Pods-BancardVposConnector_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		141F6D019E7EDD6AF18CFCB885D11858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4189B735D455A1B051A899075E7FA22F /* BancardVposConnector-dummy.m in Sources */,
+				22812F19208F94A500830102 /* CardVPOSView.swift in Sources */,
+				22812F18208F94A500830102 /* VPOSView.swift in Sources */,
+				22812F17208F94A500830102 /* CheckoutVPOSView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF14ABE4019292FBEC4F7A6AA882653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B15E0C6FFFBCADD338968E77AACB80E /* Pods-BancardVposConnector_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE04C022DFDDC90FC93BB43C5A43323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5131D1B04E827801867DF2451CC900D /* Pods-BancardVposConnector_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78F7EFA40E8411594B7893DD3B1E0668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BancardVposConnector_Example";
+			target = E9EB1B47D9DEB740CED92A8EAF3385E4 /* Pods-BancardVposConnector_Example */;
+			targetProxy = 6370C426D52BF0EBD1BB66123542E5CF /* PBXContainerItemProxy */;
+		};
+		CDC34C29CC7CC1DC70526F17464B06C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BancardVposConnector;
+			target = 9D3F3CD73237C82FFC2432CBA13F5DE1 /* BancardVposConnector */;
+			targetProxy = 6B1DA1B08E2811AEBF5497A52D24CFE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		55EEC60396EF94D89644925C6FA0B090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 782EC47DCB203FCFDF861B8B291D3475 /* BancardVposConnector.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BancardVposConnector/BancardVposConnector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BancardVposConnector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BancardVposConnector/BancardVposConnector.modulemap";
+				PRODUCT_MODULE_NAME = BancardVposConnector;
+				PRODUCT_NAME = BancardVposConnector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65243E1D3F5BD2A3E1CCE0746566FFC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 782EC47DCB203FCFDF861B8B291D3475 /* BancardVposConnector.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BancardVposConnector/BancardVposConnector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BancardVposConnector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BancardVposConnector/BancardVposConnector.modulemap";
+				PRODUCT_MODULE_NAME = BancardVposConnector;
+				PRODUCT_NAME = BancardVposConnector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8829C84240AF1709A8DCBBF390414D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92E5A4137DC9409AFCA3670DBEBB87E0 /* Pods-BancardVposConnector_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BancardVposConnector_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BancardVposConnector_Tests/Pods-BancardVposConnector_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AD4D9AAAF843C87A99D0BBF4EC2B8FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 879B885CEB3E1F580D2D4C7899110DD1 /* Pods-BancardVposConnector_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BancardVposConnector_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BancardVposConnector_Example/Pods-BancardVposConnector_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E0F0A6F4BCCEE89999A466F3D4C243F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87149979B154EC557342200F4E5313E2 /* Pods-BancardVposConnector_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BancardVposConnector_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BancardVposConnector_Example/Pods-BancardVposConnector_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAE59D8420AC239944C8E9A31B7AC6ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A231105F07D478FF1FC11B04B619E87E /* Pods-BancardVposConnector_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BancardVposConnector_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BancardVposConnector_Tests/Pods-BancardVposConnector_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AF14AFA6A5C382CFF4335F466529E27 /* Build configuration list for PBXNativeTarget "Pods-BancardVposConnector_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE59D8420AC239944C8E9A31B7AC6ED /* Debug */,
+				8829C84240AF1709A8DCBBF390414D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527BC382DFFE4282879882CBA2356051 /* Build configuration list for PBXNativeTarget "Pods-BancardVposConnector_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0F0A6F4BCCEE89999A466F3D4C243F7 /* Debug */,
+				AD4D9AAAF843C87A99D0BBF4EC2B8FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943179B0DE9C8A728A0C94C36ED7D1CE /* Build configuration list for PBXNativeTarget "BancardVposConnector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55EEC60396EF94D89644925C6FA0B090 /* Debug */,
+				65243E1D3F5BD2A3E1CCE0746566FFC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

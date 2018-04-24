@@ -1,0 +1,6 @@
+framework module Pods_BancardVposConnector_Example {
+  umbrella header "Pods-BancardVposConnector_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

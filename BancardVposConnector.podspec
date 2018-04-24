@@ -9,34 +9,18 @@
 Pod::Spec.new do |s|
   s.name             = 'BancardVposConnector'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BancardVposConnector.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'iOS Integration for credit cards and payment management using VPOS.'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    This library allows commerces to accept payments from customers,
+    as well as manage customer cards while remaining fully PCI compliant.
                        DESC
-
-  s.homepage         = 'https://github.com/Mauricio Cousillas/BancardVposConnector'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/Mauricio Cousillas/BancardVposConnector' # TODO: Change this
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mauricio Cousillas' => 'mauricio.cousillas@moove-it.com' }
   s.source           = { :git => 'https://github.com/Mauricio Cousillas/BancardVposConnector.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'BancardVposConnector/Classes/**/*'
+  s.source_files = 'BancardVposConnector/Core/**/*'
   
-  # s.resource_bundles = {
-  #   'BancardVposConnector' => ['BancardVposConnector/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.frameworks = 'UIKit', 'WebKit'
 end

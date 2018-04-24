@@ -1,0 +1,6 @@
+framework module BancardVposConnector {
+  umbrella header "BancardVposConnector-umbrella.h"
+
+  export *
+  module * { export * }
+}

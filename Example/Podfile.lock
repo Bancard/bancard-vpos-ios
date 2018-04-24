@@ -1,0 +1,16 @@
+PODS:
+  - BancardVposConnector (0.1.0)
+
+DEPENDENCIES:
+  - BancardVposConnector (from `../`)
+
+EXTERNAL SOURCES:
+  BancardVposConnector:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BancardVposConnector: 1c0829e1ccda34e757c3a3ae49ba7f4bd1e90bd3
+
+PODFILE CHECKSUM: b35c21a356f6556227dd10938beb6d9b55821450
+
+COCOAPODS: 1.5.0
