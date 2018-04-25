@@ -10,8 +10,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-* `Swift 4`
-* Xcode 9+
+* Swift 4.
+* Xcode 9+.
 
 ## Installation
 
@@ -34,6 +34,46 @@ Using this connector is straightforward:
 4- Implement it's delegate (`CardVPOSDelegate` or `CheckoutVPOSDelegate`) to listen to the success and failure callbacks.
 
 5- You are now good to go! Just call `myView.load(with: processId, styles: [:])` to start using it.
+
+### Example
+
+```swift
+import BancardVposConnector
+
+class ViewController: UIViewController {
+  /*
+    The container view where we are going to add our VPOSView,
+    in this case, a CheckoutVPOSView to make a payment.
+    You could use a direct outlet yo the CheckoutVPOSView,
+    or init it completely by code.
+  */
+  @IBOutlet weak var vPOSContainer: UIView!
+  // Here we init our VPOSView in sandbox mode.
+  lazy var vPView: VPOSView = {
+    let vpView = CheckoutVPOSView()
+    vpView.delegate = self
+    vpView.mode = .sandbox
+    return vpView
+  }()
+
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    vPOSContainer.addSubview(vPView)
+    // Add the neccessary constraints and other code of your own ....
+  }
+
+  //Your VC's code .....
+}
+// Here we implement the CheckoutVPOSDelegate
+extension ViewController: CheckoutVPOSDelegate {
+  func paymentFailed(with returnURL: String) {
+    // Continue with your own logic for processing the returnURL when the payment fails.
+  }
+  func paymentSuccess(with returnURL: String) {
+    // Continue with your own logic for processing the returnURL when the payment succeeds.
+  }
+}
+```
 
 If you needs more details, please check out the example project in this repository.
 

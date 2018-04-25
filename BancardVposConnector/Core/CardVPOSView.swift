@@ -23,7 +23,7 @@ public protocol CardVPOSDelegate: class {
    Called when the card creation request fails.
    Returns the returnURL provided by VPOS and the error details,
    after that point you should continue with the processing.
-   */
+  */
   func cardCreationFailed(with details: String, and returnURL: String)
 }
 
